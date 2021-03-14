@@ -1,27 +1,24 @@
-import logo from './logo.svg';
 import './styles/App.css';
 import DarkMode from "./components/DarkMode";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <DarkMode />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    return (
+      <div className="App">
+        <nav>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/Tivaiice/Web-DarkMode-"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Tiva Wongratkatanyoo ~
         </a>
-      </header>
-    </div>
-  );
-}
-
+          <DarkMode />
+        </nav>
+        
+        <div id="image"></div>
+      </div>
+    );
+  }
+ 
 export default App;
